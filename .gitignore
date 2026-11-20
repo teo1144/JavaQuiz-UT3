@@ -1,0 +1,13 @@
+# Archivos compilados de Java
+*.class
+bin/
+
+# Temporales y registros
+*.tmp
+*.log
+
+# Salidas de Maven
+target/
+
+# Configuración privada
+.env

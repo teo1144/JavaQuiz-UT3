@@ -105,8 +105,14 @@ public class JavaQuiz {
             System.out.println("Incorrecto");
         }
         // FIN RONDA 2 - Iker
-
+        
         // RESULTADO FINAL - Iker
+        System.out.println();
+        System.out.println("========== RESULTADO ==========");
+        System.out.println("Respuestas correctas: " + correctas + " de 6");
+        System.out.println("Fin del concurso.");
+        teclado.close();
+        
 
     }
 }

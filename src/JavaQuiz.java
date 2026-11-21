@@ -76,6 +76,34 @@ public class JavaQuiz {
         } else {
             System.out.println("Incorrecto");
         }
+
+        System.out.println();
+        System.out.println("Pregunta 5. ¿Qué estructura repite código mientras se cumple una condición?");
+        System.out.println("A) if");
+        System.out.println("B) while");
+        System.out.println("C) else");
+        System.out.print("Respuesta: ");
+        String respuesta5 = teclado.nextLine();
+        if (respuesta5.equals("B") || respuesta5.equals("b")) {
+            System.out.println("¡Correcto!");
+            correctas++;
+        } else {
+            System.out.println("Incorrecto");
+        }
+
+        System.out.println();
+        System.out.println("Pregunta 6. ¿Qué palabra se usa para ejecutar código cuando el if no se cumple?");
+        System.out.println("A) then");
+        System.out.println("B) otherwise");
+        System.out.println("C) else");
+        System.out.print("Respuesta: ");
+        String respuesta6 = teclado.nextLine();
+        if (respuesta6.equals("C") || respuesta6.equals("c")) {
+            System.out.println("¡Correcto!");
+            correctas++;
+        } else {
+            System.out.println("Incorrecto");
+        }
         // FIN RONDA 2 - Iker
 
         // RESULTADO FINAL - Iker
